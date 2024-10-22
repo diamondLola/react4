@@ -27,7 +27,7 @@ function UpdatePage() {
 
   const updateProd = (e) => {
     e.preventDefault();
-    fetch(`https://crudcrud.com/api/4dd63196ad30415c8a8c9c088cfd6e5f/posts`, {
+    fetch(`https://crudcrud.com/api/4dd63196ad30415c8a8c9c088cfd6e5f/posts${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
